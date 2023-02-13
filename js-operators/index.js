@@ -63,10 +63,10 @@ numberOfOranges++ // 99; add 1 in the next variable call
 let x = x + 1; // is same as let x++
 let y = y - 1; // is same as let y--
 
-let z = z + 6 // let z += 6;
-let w = w - 6 // let w -= 6;
-let p = p * 6 // let p *= 6;
-let q = q / 6 // let q /= 6;
+let z = z + 6 // is same as let z += 6;
+let w = w - 6 // is same as let w -= 6;
+let p = p * 6 // is same as let p *= 6;
+let q = q / 6 // is same as let q /= 6;
 
 // COMPARISON OPERATOR (>, <, >=, <=, , !=, !==, ==, ===)
 let d = -34;
