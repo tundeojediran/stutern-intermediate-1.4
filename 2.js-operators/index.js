@@ -73,6 +73,14 @@ let d = -34;
 console.log(d > 10);
 
 
+//LHS - Left Hand Side
+// RHS - Right Hand Side
+
+let cash = 1000;
+cash > 2000;
+
+
+
 
 
 
