@@ -5,6 +5,7 @@
 // // if age is greater than or equals to 18, print 'Eligible to Vote'
 // // if age is less than 18, print 'Not Eligible to Vote'
 
+let myAge = 20;
 let eligibleVoterAge = 18;
 
 if (myAge >= eligibleVoterAge) {
@@ -34,9 +35,11 @@ if (myAge >= eligibleVoterAge) {
 // if score is between 31 & 39 E8
 // if score is below 30 F9
 
-let mathScore = 22;
+// Edge cases
 
-if (mathScore >= 70) {
+let mathScore = -12;
+
+if (mathScore >= 70 && mathScore <= 100) {
   console.log("A1");
 } else if (mathScore >= 65 && mathScore <= 69) {
   console.log("B2");
@@ -52,6 +55,8 @@ if (mathScore >= 70) {
   console.log("D7");
 } else if (mathScore >= 31 && mathScore <= 39) {
   console.log("E8");
-} else {
+} else if (mathScore >=0 && mathScore <=30) {
   console.log("F9");
+} else {
+  console.log('Invalid score')
 }
