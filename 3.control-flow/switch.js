@@ -13,6 +13,8 @@ let artsSubjects = 'Government, Economics, Literature, History';
 let generalSubjects = 'English, Mathematics';
 
 // ASS 1: Rewrite this using if..else conditional statement
+
+
 switch (studentGroup) {
     case 'SCIENCE': // (studentGroup === 'SCIENCE')
         console.log(generalSubjects + ' ' + scienceSubjects)  ;      
