@@ -59,10 +59,6 @@ const student = {
   },
 };
 
-// Musa Dawodu is an Undergraduate Engineering Student of University of Lagos. He is 19 years old.
-// He lives with his parents at Lekki, Lagos State. 
-// Recently he rec
-
 console.log(student);
 
 let chemScore = student.jambScores.CHM; // using dot notation
