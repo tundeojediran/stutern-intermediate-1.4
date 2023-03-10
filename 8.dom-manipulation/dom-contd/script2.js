@@ -70,3 +70,33 @@ for (let i = 0; i < holidays.length; i++) {
 // The decrement button must decrease the count by 1.
 // The reset button must reset the count back to 0.
 // The decrement button must NOT decrement the count if it's at 0. In other words, negative counts shouldn't be there in the counter.
+
+
+
+//Q: Display each of the numbers in a given array in its own heading tag
+//For example
+// input - [1,2,3]
+// output
+// <h1> 1 </h1>
+// <h1> 2 </h1>
+// <h1> 3 </h1>
+
+// h1 - h6
+
+//
+const displayArrayNumbersInHeadingTag = (arrayOfNumbers) =>  {
+  // instruction
+  // let output = document.getElementById("numbers");
+  let output = document.createElement("div");
+  // let numbersElems = document.getElementsByClassName("number");
+  for (let index = 0; index < arrayOfNumbers.length; index++) {
+    let heading = document.createElement("h1");
+    heading.innerText = arrayOfNumbers[index];
+    output.appendChild(heading);
+  }
+  return output;
+}
+
+// displayArrayNumbersInHeadingTag([1,2,3])
+
+body.appendChild(displayArrayNumbersInHeadingTag([11,24,63]));
